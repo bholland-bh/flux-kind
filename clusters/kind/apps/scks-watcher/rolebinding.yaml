@@ -5,6 +5,7 @@ metadata:
   labels:
     app: spring-cloud-kubernetes-configuration-watcher
   name: spring-cloud-kubernetes-configuration-watcher:view
+  namespace: scks-watcher
 roleRef:
   kind: Role
   apiGroup: rbac.authorization.k8s.io

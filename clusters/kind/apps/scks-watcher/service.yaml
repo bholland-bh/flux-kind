@@ -5,6 +5,7 @@ metadata:
   labels:
     app: spring-cloud-kubernetes-configuration-watcher
   name: spring-cloud-kubernetes-configuration-watcher
+  namespace: scks-watcher
 spec:
   ports:
     - name: http

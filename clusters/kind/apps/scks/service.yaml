@@ -5,6 +5,7 @@ metadata:
   labels:
     app: spring-cloud-kubernetes-configserver
   name: spring-cloud-kubernetes-configserver
+  namespace: scks
 spec:
   ports:
     - name: http

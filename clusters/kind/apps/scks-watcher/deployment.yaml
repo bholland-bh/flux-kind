@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-cloud-kubernetes-configuration-watcher-deployment
+  namespace: scks-watcher
 spec:
   selector:
     matchLabels:

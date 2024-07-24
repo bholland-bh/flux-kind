@@ -5,6 +5,7 @@ metadata:
   labels:
     app: spring-cloud-kubernetes-configserver
   name: spring-cloud-kubernetes-configserver:view
+  namespace: scks
 roleRef:
   kind: Role
   apiGroup: rbac.authorization.k8s.io
