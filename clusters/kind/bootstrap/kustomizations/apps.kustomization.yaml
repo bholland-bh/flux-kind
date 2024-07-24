@@ -4,7 +4,7 @@ metadata:
   name: apps
   namespace: flux-system
 spec:
-  interval: 15m0s
+  interval: 5m0s
   path: ./clusters/kind/apps
   prune: true
   retryInterval: 2m0s
@@ -12,6 +12,5 @@ spec:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
-  targetNamespace: scks-watcher
   timeout: 3m0s
   wait: true
