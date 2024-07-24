@@ -28,5 +28,3 @@ spec:
             path: /actuator/health/liveness
         ports:
         - containerPort: 8888
-
-        docker pull 
