@@ -3,8 +3,8 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   labels:
-    app: spring-cloud-kubernetes-configuration-watcher
-  name: spring-cloud-kubernetes-configuration-watcher:view
+    app: scks-watcher
+  name: scks-watcher:view
   namespace: scks-watcher
 roleRef:
   kind: Role
@@ -12,4 +12,4 @@ roleRef:
   name: namespace-reader
 subjects:
   - kind: ServiceAccount
-    name: spring-cloud-kubernetes-configuration-watcher
+    name: scks-watcher

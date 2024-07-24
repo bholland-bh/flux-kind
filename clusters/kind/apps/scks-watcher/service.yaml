@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: spring-cloud-kubernetes-configuration-watcher
-  name: spring-cloud-kubernetes-configuration-watcher
+    app: scks-watcher
+  name: scks-watcher
   namespace: scks-watcher
 spec:
   ports:
@@ -12,5 +12,5 @@ spec:
       port: 8888
       targetPort: 8888
   selector:
-    app: spring-cloud-kubernetes-configuration-watcher
+    app: scks-watcher
   type: ClusterIP
